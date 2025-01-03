@@ -38,8 +38,7 @@ Before using OneType, ensure you have the following tools installed on your syst
    ```bash
    git clone https://github.com/ULTIMATRIX-pro/onetype.git
    cd onetype
-   chmod +777 onetype
-   chmod +x setup
+   chmod +777 onetype setup
    ./setup
    ./onetype
    ```
