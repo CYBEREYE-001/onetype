@@ -1,5 +1,3 @@
-# ONETYPE
-THIS IS A TOOL WHICH IS 11 OTHER TOOLS COMBINATION FOR SCANNING AND RECON. THIS IS MADE FOR TIME SAVING AND CLI LOVER. ALL SCAN AND TEST REZULT ARE SAVED IN OUTPUT DIRECTORY WHICH IS MADE BY ITSELF. AND ALSO WHERE THE REZULTS AND SCAN TEXT FILES ARE SAVED IT TOLD US ON EXCUTING TIME.  
 # OneType Tool
 
 ## Description
@@ -17,20 +15,23 @@ OneType is a comprehensive network reconnaissance tool designed for security pro
 
 ## Requirements
 
-Before using OneType, ensure you have the following tools installed on your system:
+### By running "setup" tool all requirements are autometicially install on your system.
 
-- Python 3.x
-- `nslookup`
-- `host`
-- `whois`
-- `dig`
-- `wig`
-- `nmap`
-- `assetfinder`
-- `wapiti`
-- `dnsrecon`
-- `dnsenum`
-- `nikto`
+1. Run the script:
+   ```bash
+   git clone https://github.com/ULTIMATRIX-pro/onetype.git
+   cd onetype
+   chmod +777 setup
+   ./setup
+   ```
+2. Choose your disro Debain, Arch, Red Hat:
+   ```bash
+   ENTER THE NUMBER OF YOUR DISTRO BASED ON :
+   1 = DEBIAN
+   2 = ARCH
+   3 = RED HAT
+   ENTER HERE =
+   ```
 
 ## Installation
 
@@ -38,8 +39,7 @@ Before using OneType, ensure you have the following tools installed on your syst
    ```bash
    git clone https://github.com/ULTIMATRIX-pro/onetype.git
    cd onetype
-   chmod +777 onetype setup
-   ./setup
+   chmod +777 onetype
    ./onetype
    ```
 
@@ -49,7 +49,7 @@ Before using OneType, ensure you have the following tools installed on your syst
 
 1. Run the script:
    ```bash
-   ./onetype.py
+   ./onetype
    ```
 
 2. When prompted, enter the domain name you wish to investigate:
