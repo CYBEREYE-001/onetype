@@ -19,7 +19,7 @@ OneType is a comprehensive network reconnaissance tool designed for security pro
 
 1. Run the script:
    ```bash
-   git clone https://github.com/ULTIMATRIX-pro/onetype.git
+   git clone https://github.com/CYBEREYE-001/onetype.git
    cd onetype
    chmod +777 setup
    ./setup
